@@ -1,0 +1,40 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #162641;
+}
+
+.container {
+    box-shadow: 0 0 15px #000;
+    border-radius: 10px;
+    padding: 50px;
+    text-align: center;
+    background-color: rgb(136, 255, 255);
+}
+
+.card{
+    display: flex;
+    margin: 20px 0;
+  }
+
+  
+  input, select{
+    width:80%;
+    padding: 8px;
+    border-radius: 5px 5px 0 0;
+  }
+
+  select {
+    border-radius: 0 0 5px 5px;
+  }
+
+
